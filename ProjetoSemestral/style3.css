@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 75%;
+    }
+
+    .overlay-container {
+        width: 100%;
+    }
+
+    .overlay-panel {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 150px;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #575E56;
+    height: 210px;
+}
+
+.img {
+    margin-left: 660px;
+    height: 130px;
+    margin-top: 40px;
+}
+
+.txt1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+p {
+    color: #1E4222;
+    text-align: justify;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+span {
+    color: #1E4222;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #575E56;
+    height: 210px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+   position: absolute;
+   margin-top: 45px;
+   
+}

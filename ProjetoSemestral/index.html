@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login/Cadastro</title>
 	<link rel="stylesheet" href="style.css">
-	<!-- <link rel="icon" href="Design sem nome (1) 2.png"> -->
 	<script src="https://kit.fontawesome.com/fe7113a0a0.js" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/fe7113a0a0.js" crossorigin="anonymous"></script>
 </head>
@@ -22,17 +21,25 @@
 					<a href="#" class="social"><i class="fa-brands fa-google" style="color: #000000;"></i></a>
 					<a href="#" class="social"><i class="fa-brands fa-facebook" style="color: #45a5f4;"></i></a>
 					<a href="#" class="social"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
-					<div class="linha"></div>
-					<p>ou</p>
-					<div class="linha"></div>
+					<div class="barra">
+						<div class="linha"></div>
+						<p class="ou">ou</p>
+						<div class="linha"></div>
+					</div>
+
 				</div>
 
-				<input type="text" placeholder=" | Usuário" class="teste" id="signupUsername" />
+				<input type="text" placeholder=" | Usuário" class="teste3" id="signupUsername" />
 				<input type="email" placeholder=" | Email" class="teste1" id="signupEmail" />
 				<input type="password" placeholder=" | Senha" class="teste2" id="signupPassword" />
 				<input type="password" placeholder=" | Confirmação da senha" class="teste2"
 					id="signupConfirmPassword" />
 				<button class="bt1" onclick="validateSignup()">Cadastra-se</button>
+
+				<p class="final">Ao se cadastrar, você concorda com os<br><a class="final1"
+						href="index3.html">Termos</a> e a <a class="final1" href="index2.html">Política de
+						Privacidade</a></p>
+
 			</form>
 		</div>
 		<div class="form-container sign-in-container">
@@ -44,9 +51,12 @@
 					<a href="#" class="social"><i class="fa-brands fa-facebook" style="color: #45a5f4;"></i></a>
 					<a href="#" class="social"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
 				</div>
-				<div class="linha"></div>
-				<p>ou</p>
-				<div class="linha"></div>
+				<div class="barra">
+					<div class="linha"></div>
+					<p class="ou">ou</p>
+					<div class="linha"></div>
+				</div>
+
 				<input type="email" placeholder=" | Usuário" class="teste" id="loginUsername" />
 				<input type="password" placeholder=" | Senha" class="teste2" id="loginPassword" />
 				<button class="bt1" onclick="validateLogin()">Login</button>
@@ -60,7 +70,7 @@
 					</div>
 					<h1 class="t3">Seja bem vindo novamente!</h1>
 					<p class="txt2">Já tem uma conta?</p>
-					<button class="ghost" id="signIn">login</button>
+					<button class="ghost" id="signIn">Login</button>
 				</div>
 				<div class="overlay-panel overlay-right">
 					<div class="img">

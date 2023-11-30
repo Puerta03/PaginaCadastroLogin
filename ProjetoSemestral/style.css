@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 @media (max-width: 768px) {
 	.container {
@@ -28,10 +30,13 @@ body {
 .t1 {
 	font-family: 'Bowlby One SC', sans-serif;
 	margin-bottom: 0px;
+	font-size: 36px;
+	margin-top: 0px;
 }
 
 .t2 {
-	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 5px;
 	font-family: 'Bowlby One SC', sans-serif;
 	font-size: 35px;
 }
@@ -52,7 +57,7 @@ h2 {
 	font-weight: 100;
 	line-height: 20px;
 	letter-spacing: 0.5px;
-	margin: 5px 0 30px;
+	margin: 5px 0 20px;
 	font-family: 'Open Sans', sans-serif;
 	color: #3F3F41;
 }
@@ -62,6 +67,12 @@ h2 {
 	font-size: 30px;
 	margin-bottom: 10px;
 	margin-top: 90px;
+}
+
+.txt2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
 span {
@@ -77,29 +88,30 @@ a {
 
 .bt1 {
 	border-radius: 20px;
-	border-color: rgb(0, 0, 0);
-	background: transparent;
-	color: #000000;
+	border-color: transparent;
+	background: linear-gradient(90deg, #B7A4FD 1.39%, #B2EBF2 99.78%);
+	color: white;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
-	margin-top: 50px;
+	margin-top: 20px;
+
+
 }
 
 .ghost {
-	border-radius: 20px;
+	border-radius: 50px;
 	background-color: white;
 	border-color: transparent;
 	color: black;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: bold;
-	padding: 12px 45px;
+	padding: 8px 45px;
 	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+	font-family: 'Open Sans', sans-serif;
 }
 
 form {
@@ -116,11 +128,12 @@ form {
 input {
 	background-color: white;
 	border-color: #6F6D6D;
-	border-radius: 14px;
+	border-radius: 19px;
 	padding: 12px 25px;
 	margin: 8px 0;
 	width: 500px;
 	color: #6F6D6D;
+	/* height: 48px; */
 }
 
 .container {
@@ -247,18 +260,17 @@ input {
 }
 
 .social-container {
-	margin: 20px 0;
+	margin: 10px 0;
 }
 
 .social-container a {
-	border: 1px solid #DDDDDD;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
+	margin: 0px 10px;
+	height: 50px;
+	width: 50px;
 }
 
 .img {
@@ -267,13 +279,7 @@ input {
 }
 
 .social i {
-	font-size: 40px;
-}
-
-.social img {
-	height: 35px;
-	width: 35px;
-	object-fit: cover;
+	font-size: 50px;
 }
 
 .img1 {
@@ -286,13 +292,17 @@ input {
 	background: url(Vector.png)no-repeat left;
 	background-size: 16px;
 	background-position: 8px;
+	margin: 10px;
+	height: 48px;
 }
 
 .teste1 {
 	padding-left: 25px;
 	background: url(Vector\ \(1\).png)no-repeat left;
-	background-size: 18px;
+	background-size: 16px;
 	background-position: 8px;
+	margin: 10px;
+	height: 48px;
 }
 
 .teste2 {
@@ -300,6 +310,18 @@ input {
 	background: url(Vector\ \(2\).png)no-repeat left;
 	background-size: 16px;
 	background-position: 8px;
+	margin: 10px;
+	height: 48px;
+}
+
+.teste3 {
+	padding-left: 25px;
+	background: url(Vector.png)no-repeat left;
+	background-size: 16px;
+	background-position: 8px;
+	margin: 10px;
+	margin-top: -20px;
+	height: 48px;
 }
 
 hr {
@@ -307,4 +329,34 @@ hr {
 	width: 200px;
 	height: 3px;
 	border-radius: 5px;
+}
+
+.final {
+	font-family: 'Open Sans', sans-serif;
+	color: #898484;
+	font-size: 20px;
+}
+
+.final1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #898484;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.linha {
+	width: 190px;
+	height: 1.5px;
+	background: linear-gradient(270deg, rgba(71, 152, 197, 0.58) 30.05%, rgba(183, 164, 253, 0.63) 66.35%);
+	margin: 35px;
+	
+}
+
+.barra {
+	display: flex;
+}
+
+.ou {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 }
